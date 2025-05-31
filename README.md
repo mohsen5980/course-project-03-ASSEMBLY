@@ -51,7 +51,7 @@ Minimize total energy **E_total**, including compute and network costs, subject 
 
 $$
 \min_{ρ,x,t,l}\;E_\text{total}=\sum_{v∈V}\Big(P_b^{x_v}(l_v)·\frac{w_v}{S_{x_v}(l_v)}+\sum_{(v,u)∈E}\frac{e_{vu}}{B_{x_vx_u}}·P_\text{net}\Big)\]
-
+$$
 Plus a penalty if the makespan exceeds the deadline:
 $$
 λ·\max(0,\text{finish}-Δ^B)
